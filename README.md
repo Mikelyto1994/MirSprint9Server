@@ -17,6 +17,28 @@ Este es el backend de una tienda en línea que gestiona las operaciones de pago 
 
 ## Resumen
 
+Para ejecutar este proyecto, sigue los siguientes pasos:
+
+1. Clona el repositorio en tu máquina local.
+2. Navega al directorio del proyecto.
+3. Instala las dependencias ejecutando:
+   ```bash
+   npm install
+   ```
+4. Crea un archivo .env en la raíz del proyecto y agrega las siguientes variables de entorno:
+
+```bash
+env
+STRIPE_SECRET_KEY=tu_clave_privada_de_stripe
+DATABASE_URL=tu_url_de_base_de_datos
+```
+
+Inicia el servidor de desarrollo con:
+
+```bash
+npm run dev
+```
+
 ### El desafío
 
 Los usuarios deben ser capaces de:
